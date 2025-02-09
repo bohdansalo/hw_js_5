@@ -73,16 +73,40 @@
 
 // 4
 
-const color = "green";
+// const color = "green";
 
-switch (color) {
-  case "green":
-    console.log("йти");
+// switch (color) {
+//   case "green":
+//     console.log("йти");
+//     break;
+//   case "red":
+//     console.log("стоп");
+//     break;
+//   case "yellow":
+//     console.log("чекати");
+//     break;
+// }
+
+// 5
+
+const firstNumber = 15;
+const sumNumber = 5;
+
+const operator = "+";
+
+switch (operator) {
+  case "*":
+    console.log(firstNumber * sumNumber);
     break;
-  case "red":
-    console.log("стоп");
+  case "/":
+    console.log(firstNumber / sumNumber);
     break;
-  case "yellow":
-    console.log("чекати");
+  case "+":
+    console.log(firstNumber + sumNumber);
     break;
+  case "-":
+    console.log(firstNumber - sumNumber);
+    break;
+  default:
+    console.log("Такого оператора немає");
 }
